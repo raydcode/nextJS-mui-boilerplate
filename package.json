@@ -1,13 +1,9 @@
 {
   "name": "nextjs",
-  "version": "5.0.0",
+  "version": "4.0.0",
   "private": true,
   "dependencies": {
-    "@emotion/cache": "latest",
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@emotion/server": "latest",
-    "@mui/material": "latest",
+    "@material-ui/core": "^4.12.3",
     "clsx": "latest",
     "next": "latest",
     "prop-types": "latest",

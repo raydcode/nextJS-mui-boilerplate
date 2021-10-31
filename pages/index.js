@@ -1,7 +1,7 @@
-import * as React from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import React from 'react';
+import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
 import ProTip from '../src/ProTip';
 import Link from '../src/Link';
 import Copyright from '../src/Copyright';
@@ -9,9 +9,9 @@ import Copyright from '../src/Copyright';
 export default function Index() {
   return (
     <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
+      <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Next.js v5 example
+          Next.js example
         </Typography>
         <Link href="/about" color="secondary">
           Go to the about page
